@@ -40,7 +40,7 @@ def main():
         max_effort=10.0,
         ignore_new_calls_while_executing=True,
         callback_group=callback_group,
-        gripper_command_action_name="/robot_j2s7s300_gripper/gripper_command",
+        gripper_command_action_name="/panda_hand_controller/gripper_cmd",
     )
 
     # Spin the node in background thread(s)

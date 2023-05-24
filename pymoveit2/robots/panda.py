@@ -1,7 +1,7 @@
 from typing import List
 
-MOVE_GROUP_ARM: str = "arm"
-MOVE_GROUP_GRIPPER: str = "gripper"
+MOVE_GROUP_ARM: str = "panda_arm"
+MOVE_GROUP_GRIPPER: str = "hand"
 
 OPEN_GRIPPER_JOINT_POSITIONS: List[float] = [0.04, 0.04]
 CLOSED_GRIPPER_JOINT_POSITIONS: List[float] = [0.0, 0.0]
@@ -24,7 +24,7 @@ def base_link_name(prefix: str = "panda_") -> str:
 
 
 def end_effector_name(prefix: str = "panda_") -> str:
-    return prefix + "hand_tcp"
+    return prefix + "hand"
 
 
 def gripper_joint_names(prefix: str = "panda_") -> List[str]:

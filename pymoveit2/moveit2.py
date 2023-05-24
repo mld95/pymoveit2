@@ -45,11 +45,11 @@ class MoveIt2:
         joint_names: List[str],
         base_link_name: str,
         end_effector_name: str,
-        group_name: str = "arm",
+        group_name: str = "panda_arm",
         execute_via_moveit: bool = False,
         ignore_new_calls_while_executing: bool = False,
         callback_group: Optional[CallbackGroup] = None,
-        follow_joint_trajectory_action_name: str = "joint_trajectory_controller/follow_joint_trajectory",
+        follow_joint_trajectory_action_name: str = "/panda_arm_controller/follow_joint_trajectory",
     ):
         """
         Construct an instance of `MoveIt2` interface.

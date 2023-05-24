@@ -29,7 +29,7 @@ class GripperCommand:
         max_effort: float = 0.0,
         ignore_new_calls_while_executing: bool = True,
         callback_group: Optional[CallbackGroup] = None,
-        gripper_command_action_name: str = "gripper_action_controller/gripper_command",
+        gripper_command_action_name: str = "panda_hand_controller/gripper_cmd",
     ):
         """
         Construct an instance of `GripperCommand` interface.
