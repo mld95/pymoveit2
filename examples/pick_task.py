@@ -136,8 +136,8 @@ def main():
             rate.sleep()
 
     # Remove collision object
-    node.get_logger().info(f"Removing collision mesh with ID '{mesh_id}'")
-    moveit2.remove_collision_mesh(id=mesh_id)
+    #node.get_logger().info(f"Removing collision mesh with ID '{mesh_id}'")
+    #moveit2.remove_collision_mesh(id=mesh_id)
 
     rclpy.shutdown()
     exit(0)
