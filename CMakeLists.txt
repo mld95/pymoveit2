@@ -18,6 +18,8 @@ install(PROGRAMS
     ${EXAMPLES_DIR}/ex_pose_goal.py
     ${EXAMPLES_DIR}/ex_servo.py
     ${EXAMPLES_DIR}/pick_task.py
+    ${EXAMPLES_DIR}/grasp_test.py
+    ${EXAMPLES_DIR}/joint_position_test.py
     DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -63,13 +63,13 @@ def main():
     node.declare_parameter(
         "joint_positions",
         [
-            -0.0872664626,
-            -0.1396263402,
-            0.0698131701,
-            -1.7976891296,
-            0.0698131701,
-            1.6057029118,
-            2.3736477827,
+            0.7853981634,
+            0.4886921906 ,
+            0.8203047484,
+            -0.9948376736,
+            -0.3316125579,
+            1.343903524,
+            2.2514747351,
         ],
     )
 
@@ -108,7 +108,7 @@ def main():
     executor_thread.start()
 
     # Create collision object
-    mesh_id = create_collision_object(node, moveit2)
+    #mesh_id = create_collision_object(node, moveit2)
 
     # Move to joint configuration
     joint_positions = (

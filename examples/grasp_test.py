@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Code for moving the Franka Panda robot's arm to three different joint positions.
+Code for moving grasping the object.
 """
 
 from threading import Thread
